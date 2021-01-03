@@ -13,8 +13,8 @@ Login using your Telegram account
 Click on API Development Tools
 Create a new application, by entering the required details
 Check your Telegram saved messages section to copy the STRING_SESSION""")
-API_KEY = int(input("Enter API_KEY here: "))
-API_HASH = input("Enter API_HASH here: ")
+API_KEY = int(input("2381610: "))
+API_HASH = input("d1286bfd7b80733548a6b1a0d3415186: ")
 
 with TelegramClient(StringSession(), API_KEY, API_HASH) as client:
     print("Check your Telegram Saved Messages to copy the STRING_SESSION value")
